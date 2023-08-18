@@ -54,3 +54,13 @@ Para encriptar contraseñas
 Para generar JWT
 
 ```npm i jsonwebtoken```
+
+### Express-Fileupload 
+Para subir archivos
+
+```npm i express-fileupload```
+
+### UUID 
+Para poder generar cadenas aleatorias y criptográficamente seguras en imagenes
+
+```npm i uuid```

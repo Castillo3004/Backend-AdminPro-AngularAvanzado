@@ -39,3 +39,18 @@ Es para trabajar con variables de entorno en NodeJS
 Para habilitar o trabjar con CORS
 
 ```npm i cors```
+
+### Express-Validator
+Para validaciones semiautomaticas en las rutas de acuerdo al modelo
+
+```npm i express-validator```
+
+### BCryptJS
+Para encriptar contraseñas
+
+```npm i bcryptjs```
+
+### JWT (Json Web Token)
+Para generar JWT
+
+```npm i jsonwebtoken```

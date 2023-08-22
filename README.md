@@ -64,3 +64,9 @@ Para subir archivos
 Para poder generar cadenas aleatorias y criptográficamente seguras en imagenes
 
 ```npm i uuid```
+
+### Google Auth Library
+Para verificar el token de ID de Google en el servidor
+
+```npm i google-auth-library --save```
+

@@ -8,8 +8,8 @@ async function googleVerify( token ) {
       idToken: token,
       audience: process.env.GOOGLE_ID,  
   });
+
   const payload = ticket.getPayload();
-  console.log({ payload });
   // If request specified a G Suite domain:
   // const domain = payload['hd'];
 

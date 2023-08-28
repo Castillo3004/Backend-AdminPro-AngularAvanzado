@@ -56,7 +56,11 @@ router.delete(
 
 router.get( 
     '/:id', 
-    validarJWT,
+    [
+        validarJWT,
+        check('id','El id del doctor debe ser un ID de Moongo').isMongoId(),
+        validarCampos
+    ],
     getMedicoById, 
 );
 
